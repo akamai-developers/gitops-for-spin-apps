@@ -1,7 +1,7 @@
 apiVersion: core.spinkube.dev/v1alpha1
 kind: SpinApp
 metadata:
-  name: ghcr.io
+  name: hello
 spec:
   image: "ghcr.io/akamai-developers/hello:v1"
   executor: containerd-shim-spin
