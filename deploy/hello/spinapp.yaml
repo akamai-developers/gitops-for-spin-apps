@@ -3,6 +3,6 @@ kind: SpinApp
 metadata:
   name: hello
 spec:
-  image: "ghcr.io/akamai-developers/hello:efa61a6"
+  image: "ghcr.io/akamai-developers/hello:35c2d7f"
   executor: containerd-shim-spin
   replicas: 2
