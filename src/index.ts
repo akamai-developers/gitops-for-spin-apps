@@ -8,7 +8,7 @@ let router = AutoRouter();
 // Any route that does not return will be treated as a middleware
 // Any unmatched route will return a 404
 router
-  .get('/', () => new Response('Hello from SpinKube, this is Spin!'));
+  .get('/', () => new Response('Hello from SpinKube, this is Spin.'));
 
 //@ts-ignore
 addEventListener('fetch', (event: FetchEvent) => {
